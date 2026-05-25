@@ -2,7 +2,7 @@
 
 Интерактивный симулятор airdrop-зон для GTA 5 RP: карта, таймер фаз, рисование и экспорт готовых PNG для стримов и разборов.
 
-**Открыть инструмент:** после публикации Pages — `https://<ваш-логин>.github.io/<имя-репо>/`
+**Открыть инструмент:** [alamantik.github.io/airdrop-simulator](https://alamantik.github.io/airdrop-simulator/)
 
 ## Возможности
 
