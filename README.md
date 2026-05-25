@@ -35,7 +35,7 @@ npm run build
 
 1. Залейте репозиторий на GitHub.
 2. Выполните `npm run build:pages`.
-3. Settings → Pages → Source: branch `main`, folder `/docs`.
+3. Settings → Pages → Source: branch `main`, folder **`/docs`** (не `dist`!).
 4. Сайт: `https://<user>.github.io/<repo>/`
 
-Папки `dist/` и `docs/` в `.gitignore` — перед публикацией уберите `docs/` из ignore или коммитьте только `docs/index.html`.
+`dist/` в `.gitignore` — локальная сборка. На GitHub коммитится **`docs/index.html`** (команда `npm run build:pages` копирует туда же содержимое).
