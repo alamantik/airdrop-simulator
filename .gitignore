@@ -1,48 +1,15 @@
-# ── Зависимости и локальная сборка ──
+# Локальные артефакты (если останутся при разработке на другой копии)
 node_modules/
 dist/
-
-# GitHub Pages: docs/index.html коммитится (npm run build:pages)
-# docs/ не игнорируем
-
-# Временные файлы build.mjs
-.build-check.js
-
-# Локальные отладочные артефакты
-_*.js
-_*.html
-_*.mjs
-
-# Playwright (npm run test:*)
-/test-results/
-/playwright-report/
-/blob-report/
-/playwright/.cache/
-
-# Логи и секреты
 *.log
-npm-debug.log*
 .env
 .env.*
 !.env.example
 
-# Windows
+# OS / IDE
 Thumbs.db
-ehthumbs.db
 Desktop.ini
-$RECYCLE.BIN/
-
-# macOS
 .DS_Store
-.AppleDouble
-.LSOverride
-
-# Linux
-*~
-
-# IDE / редактор (локальные настройки)
 .vscode/
 .idea/
-*.swp
-*.swo
 .cursor/
