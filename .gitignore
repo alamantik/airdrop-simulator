@@ -1,10 +1,22 @@
-# Локальные артефакты (если останутся при разработке на другой копии)
+# ── Локальная разработка (не пушить на GitHub) ──
+src/
+build.mjs
+package.json
+package-lock.json
+smoke-test.mjs
+security-test.mjs
+security/
 node_modules/
 dist/
+.build-check.js
+
+# ── GitHub Pages: docs/ коммитится ──
+
+# Логи и секреты
 *.log
+npm-debug.log*
 .env
 .env.*
-!.env.example
 
 # OS / IDE
 Thumbs.db
